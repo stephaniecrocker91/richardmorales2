@@ -1,0 +1,45 @@
+.Green{
+    background-color: #778566!important;
+}
+
+.Logo {
+    letter-spacing: 3px;
+    font-size: 30px;
+    margin-right: 20px;
+    color: white!important;
+    font-family: 'Architects Daughter', cursive;
+    text-transform: uppercase;
+}
+
+.Link {
+    margin-right: 40px;
+    color: white!important;
+    text-decoration: none!important;
+    text-transform: uppercase;
+    font-family: 'Architects Daughter', cursive;
+}
+
+
+.NavBar {
+    background-color: #778566!important;
+    z-index: 1;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.Social {
+    margin-left: 20px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.Social:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+    .Logo {
+      font-size: 22px;
+      }
+    }

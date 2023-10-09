@@ -1,0 +1,101 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+
+.App {
+  font-family: sans-serif;
+  width: 100vw;
+  height: 100vh;
+  min-height: 100vh;
+}
+
+.AppContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+html,body {
+  text-align: center;
+  color: #3A3B3C;
+  background-color: #f7f7f7!important;
+
+}
+
+.Content {
+  margin-top: 60px;
+  flex:1;
+  min-height: calc(90vh);
+}
+
+.Box {
+  padding: 10px 50px ;
+
+}
+
+.LightGreen{
+  background-color: #778566a8;
+}
+
+h1{
+  text-transform: uppercase;
+}
+
+h2,h3,h4{
+  font-family: 'Architects Daughter', cursive;
+  text-transform: uppercase;
+}
+
+p{
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+.LightGreen{
+  background-color: #77856662!important;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.Margin{
+  margin-top: 25px;
+}
+
+@media screen and (max-width: 450px) {
+  h1{
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 6px;
+}
+
+  h2 {
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 6px;
+}
+  .Box {
+    padding: 10px 10px ;
+}
+
+  .Button{
+    font-size: 15px;
+}
+}
+
+@media screen and (max-width: 500px) {
+.Content {
+  background-color:transparent!important;
+  }
+}
+
+@media screen and (max-width: 676px) {
+  h1 {
+      font-size: 40px;
+      letter-spacing: 15px;
+  }
+  h2{
+      font-size: 25px;
+      letter-spacing: 10px;
+  }
+}
+

@@ -1,0 +1,19 @@
+.Icon{
+    color: white;
+    font-size: 20px;
+    z-index: 2;
+}
+
+.SocialContainer {
+    display: flex!important; /* Display its children in a row */
+    gap: 20px; /* Add some space between the children */
+    justify-content: center;
+  }
+  
+
+.SocialContainer a {
+    font-size: 60px;
+    color:black;
+  }
+
+  /* Add any additional styling you need for individual links or their icons */

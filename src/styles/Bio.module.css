@@ -1,0 +1,33 @@
+
+.BioText{
+    text-align: left;
+}
+
+.BioImage{
+    width: 25vw;
+    max-height: 50vh;
+}
+
+.Margin {
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 767px) {
+
+    .BioText{
+        text-align: center;
+    }
+    .BioImage{
+        width: 40vw;
+    
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .BioImage{
+        width: 70vw;
+        height: 40vh;
+    
+    }
+}

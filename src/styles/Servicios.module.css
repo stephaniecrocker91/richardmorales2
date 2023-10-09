@@ -1,0 +1,68 @@
+.Subtitle{
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.IntroText {
+    margin-top: 50px;
+}
+
+
+.BioText{
+    text-align: left;
+}
+
+.ServicioImage{
+    width: 25vw;
+    max-height: 50vh;
+}
+
+.Margin {
+    margin-top: 50px;
+}
+
+.ServiceLinks a{
+    margin-right: 20px;
+    text-decoration: none!important;
+    color: black;
+    cursor: pointer;
+}
+
+/* For larger screens (e.g., desktop) */
+.ReverseOrder {
+    flex-direction: row-reverse;
+}
+.MobileImage{
+    display:none;
+}
+
+
+@media screen and (max-width: 767px) {
+    .BioText{
+        text-align: center;
+    }
+    .ServicioImage{
+        display:none;
+    
+    }
+    .MobileImage {
+        margin:auto;
+        display: block;
+        max-height: 30vh;
+        width: 70vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .ReverseOrder {
+        flex-direction: row-reverse;
+    }
+}
+
+
+
+
+
+
+
