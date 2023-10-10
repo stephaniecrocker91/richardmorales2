@@ -19,12 +19,9 @@ function Contact() {
                 <div className={
                     app.Margin
                 }>
-                    <p>
-                        <em>Namaste...</em>
-                    </p>
-                    <p>
-                        <em>Conéctate con nosotros y síguenos en nuestras redes sociales!</em>
-                    </p>
+                    <h5>
+                        <em>Conéctate con nosotros y síguenos en nuestras redes sociales.</em>
+                    </h5>
                     <div class={
                         styles.SocialContainer
                     }>
@@ -49,70 +46,73 @@ function Contact() {
                             <p>morales.r51@gmail.com</p>
                         </span>
                     </div>
-                    <Row className="justify-content-center">
-                        <Col md={6} className="text-left">
-                            <h3>Espacio Anahata</h3>
+                    <div className={
+                        styles.Anahata
+                    }>
+                        <h3>Espacio Anahata</h3>
 
-                            <div class={
-                                styles.SocialContainer
-                            }>
-                                <span>
-                                    <a className={
-                                            styles.Social
-                                        }
-                                        href='https://www.instagram.com/espacio_anahata_/'
-                                        target="_blank"
-                                        rel="noopener noreferrer">
-                                        <i class="fa-brands fa-square-instagram"></i>
-                                    </a>
-                                    <p>@espacio_anahata_</p>
-                                </span>
-                                <span>
-                                    <a className={
-                                            styles.Social
-                                        }
-                                        href="https://www.facebook.com/Termerg"
-                                        target="_blank"
-                                        rel="noopener noreferrer">
-                                        <i class="fa-brands fa-facebook"></i>
-                                    </a>
-                                    <p>Espacio Anahata</p>
-                                </span>
+                        <div class={
+                            styles.SocialContainer
+                        }>
+                            <span>
+                                <a className={
+                                        styles.Social
+                                    }
+                                    href='https://www.instagram.com/espacio_anahata_/'
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="fa-brands fa-square-instagram"></i>
+                                </a>
+                                <p>@espacio_anahata_</p>
+                            </span>
+                            <span>
+                                <a className={
+                                        styles.Social
+                                    }
+                                    href="https://www.facebook.com/Termerg"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                                <p>Espacio Anahata</p>
+                            </span>
 
-                            </div>
-                        </Col>
-                        <Col md={6} className="text-right">
-                            <h3>Itka Uruguay</h3>
-                            <div class={
-                                styles.SocialContainer
-                            }>
-                                <span>
-                                    <a className={
-                                            styles.Social
-                                        }
-                                        href='https://www.instagram.com/itkauruguay/'
-                                        target="_blank"
-                                        rel="noopener noreferrer">
-                                        <i class="fa-brands fa-square-instagram"></i>
-                                    </a>
-                                    <p>@itkauruguay</p>
-                                </span>
-                                <span>
-                                    <a className={
-                                            styles.Social
-                                        }
-                                        href="https://www.facebook.com/profile.php?id=100089955318537"
-                                        target="_blank"
-                                        rel="noopener noreferrer">
-                                        <i class="fa-brands fa-facebook"></i>
-                                    </a>
-                                    <p>Itka Uruguay</p>
-                                </span>
-                            </div>
-                        </Col>
-                    </Row>
+                        </div>
+                    </div>
+                    <div className={
+                        styles.Itka
+                    }>
+                        <h3>Itka Uruguay</h3>
+                        <div class={
+                            styles.SocialContainer
+                        }>
+                            <span>
+                                <a className={
+                                        styles.Social
+                                    }
+                                    href='https://www.instagram.com/itkauruguay/'
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="fa-brands fa-square-instagram"></i>
+                                </a>
+                                <p>@itkauruguay</p>
+                            </span>
+                            <span>
+                                <a className={
+                                        styles.Social
+                                    }
+                                    href="https://www.facebook.com/profile.php?id=100089955318537"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                                <p>Itka Uruguay</p>
+                            </span>
+                        </div>
+                    </div>
                 </div>
             </div>
+
 
         </>
     )

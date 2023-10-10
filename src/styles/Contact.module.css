@@ -10,6 +10,9 @@
     justify-content: center;
   }
   
+.SocialContainer span {
+  width:200px;
+}
 
 .SocialContainer a {
     font-size: 60px;
@@ -17,12 +20,16 @@
     
   }
 
-.Left{
-  right:0;
+.Anahata{
+  background-color: #7886663d;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
-.Right{
-  background-color: aqua!important;
-  left:0;
+
+.Itka{
+  background-color: #e8d2be85;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
   /* Add any additional styling you need for individual links or their icons */
