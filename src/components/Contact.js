@@ -8,11 +8,11 @@ function Contact() {
     return (
         <>
             <div className={
-                app.Box}>
+                app.ContentBox}>
                 <div className={app.LightGreen}>
                     <h2>Contacto</h2>
                     </div>
-            <div className={app.Margin}>
+            <div className={app.Margin}`}`>
             <p><em>Conéctate con nosotros...</em></p>      
             <div class={styles.SocialContainer}>
             <span>

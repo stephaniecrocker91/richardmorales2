@@ -11,7 +11,7 @@ function Bio() {
     return (
         <>
             <div className={
-                app.Box
+                app.ContentBox
             }>
                 <Container fluid
                     style={
@@ -27,10 +27,10 @@ function Bio() {
                     {/*<h4>
                         Instructor Tai Chi Chuan, Qigong, Terapeuta MTCH, Maestro de Reiki, Terapeuta Floral, Instructor de Yoga
             </h4>*/}
-                    <Row className={
+                    <div className={
                         styles.Margin
                     }>
-                        <Col lg={4}
+                        <div lg={4}
                             md={4}
                             sm={12}
                             xs={12}><img src={hero}
@@ -38,10 +38,10 @@ function Bio() {
                                 className={
                                     styles.BioImage
                                 }
-                                loading="lazy"/></Col>
-                        <Col>
+                                loading="lazy"/></div>
+                        <div>
                             <div className={
-                                styles.Box
+                                app.PaddingLeftRight
                             }>
                                 <div className={
                                     styles.BioText
@@ -52,9 +52,9 @@ function Bio() {
                                     <p>Cuando comprendes que eres Energía y que el equilibrio de esta Energía es la que nos permite una buena salud física, mental, emocional y espiritual es cuando damos un paso adelante en nuestra evolución como Seres.</p>
                                 </div>
                             </div>
-                        </Col>
+                        </div>
 
-                    </Row>
+                    </div>
                 </Container>
             </div>
         </>

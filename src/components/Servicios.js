@@ -65,7 +65,7 @@ function Servicios() {
     return (
         <>
             <div className={
-                app.Box
+                app.ContentBox
             }>
                 <Container fluid
                     style={
@@ -83,7 +83,7 @@ function Servicios() {
                         <Row className={
                                 `${
                                     styles.Margin
-                                } ${
+                                } ${app.PaddingLeftRight} ${
                                     index % 2 === 1 ? styles.ReverseOrder : ''
                                 }`
                             }
