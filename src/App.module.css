@@ -19,8 +19,6 @@ html,body {
   text-align: center;
   color: #3A3B3C;
   background-color: white!important;
-
-
 }
 
 .Content {
@@ -34,7 +32,6 @@ html,body {
   width: 100%;
   padding: 0;
   margin: 0;
-
 }
 
 .PaddingLeftRight{
@@ -43,11 +40,9 @@ html,body {
 }
 
 h1,h2,h3,h4{
-
   font-family: 'Architects Daughter', cursive;
   text-transform: uppercase;
 }
-
 
 p{
   letter-spacing: 1px;

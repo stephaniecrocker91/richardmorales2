@@ -4,8 +4,8 @@
     z-index: 2;
 }
 
-.SocialContainer {
-    display: flex!important; /* Display its children in a row */
+.SocialContainer{
+    display: inline-block!important; /* Display its children in a row */
     gap: 20px; /* Add some space between the children */
     justify-content: center;
   }
@@ -21,13 +21,13 @@
   }
 
 .Anahata{
-  background-color: #7886663d;
+  background-color: #78866617;
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
 .Itka{
-  background-color: #e8d2be85;
+  background-color: #e8d2be4f;
   padding-top: 40px;
   padding-bottom: 40px;
 }
