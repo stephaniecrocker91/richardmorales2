@@ -42,11 +42,7 @@ html,body {
   padding-right: 50px;
 }
 
-h1{
-  text-transform: uppercase;
-}
-
-h2,h3,h4{
+h1,h2,h3,h4{
 
   font-family: 'Architects Daughter', cursive;
   text-transform: uppercase;

@@ -48,10 +48,6 @@ function NavBar() {
                             {maxHeight: '100px'}
                         }
                         navbarScroll>
-                        <NavLink exact="true" to="/"
-                            className={
-                                styles.Link
-                        }>Home</NavLink>
                         <NavLink exact="true" to="/richardmorales"
                             className={
                                 styles.Link

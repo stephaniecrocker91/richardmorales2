@@ -46,7 +46,7 @@ function Bio() {
                                 <div className={
                                     styles.BioText
                                 }>
-                                    <p>Mi nombre es Richard Morales.</p>
+                                    <p>Hola, mi nombre es Richard Morales.</p>
                                     <p>Comencé mi búsqueda hace unos años como practicante de Artes Marciales (karate), después de un tiempo conocí el Chi Kung y de la mano de este hermoso arte llegué al Tai Chi. Instructor de ambas Artes Internas, y también de Yoga, me adentré en el camino del Reiki llegando a la Maestría. Mis estudios continuaron en el campo de las Terapias Florales, luego llegó la Medicina Tradicional China que me enamoró y la cual es base de mí trabajo junto al Tai Chi. 
                                         El estudio y análisis de los fenómenos que nos rodean nunca termina.</p>
                                     <p>Cuando comprendes que eres Energía y que el equilibrio de esta Energía es la que nos permite una buena salud física, mental, emocional y espiritual es cuando damos un paso adelante en nuestra evolución como Seres.</p>
