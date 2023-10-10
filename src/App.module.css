@@ -4,7 +4,7 @@
 
 .App {
   font-family: sans-serif;
-  width: 100vw;
+  width: 100vw!important;
   height: 100vh;
   min-height: 100vh;
 }
@@ -18,7 +18,8 @@
 html,body {
   text-align: center;
   color: #3A3B3C;
-  background-color: #f7f7f7!important;
+  background-color: white!important;
+
 
 }
 
@@ -30,11 +31,10 @@ html,body {
 
 .Box {
   padding: 10px 50px ;
+  width: 100%;
+  padding: 0;
+  margin: 0;
 
-}
-
-.LightGreen{
-  background-color: #778566a8;
 }
 
 h1{
@@ -42,9 +42,11 @@ h1{
 }
 
 h2,h3,h4{
+
   font-family: 'Architects Daughter', cursive;
   text-transform: uppercase;
 }
+
 
 p{
   letter-spacing: 1px;
@@ -52,9 +54,11 @@ p{
 }
 
 .LightGreen{
-  background-color: #77856662!important;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  background-color: #fafafa!important;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #778566!important;
+  border: 1px solid #e0e0e0;
 }
 
 .Margin{
