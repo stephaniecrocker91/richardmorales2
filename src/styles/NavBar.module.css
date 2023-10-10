@@ -1,24 +1,24 @@
-.Green{
-    background-color: #778566!important;
+.Green {
+    background-color: #778566 !important;
 }
 
 .Logo {
     letter-spacing: 3px;
     font-size: 30px;
     margin-right: 20px;
-    color: white!important;
+    color: white !important;
     font-family: 'Architects Daughter', cursive;
 }
 
 .Link {
     margin-right: 40px;
-    color: white!important;
-    text-decoration: none!important;
+    color: white !important;
+    text-decoration: none !important;
 }
 
 
 .NavBar {
-    background-color: #778566!important;
+    background-color: #778566 !important;
     z-index: 1;
     width: 100%;
     margin-left: 0;
@@ -31,12 +31,18 @@
     color: white;
     text-align: center;
 }
-.Social:hover{
+
+.Social:hover {
     cursor: pointer;
 }
 
 @media screen and (max-width: 500px) {
     .Logo {
-      font-size: 22px;
-      }
+        font-size: 22px;
     }
+
+    .Link {
+        font-size: 20px !important;
+        margin-bottom: 20px!important;
+    }
+}

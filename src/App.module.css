@@ -62,6 +62,10 @@ p{
   margin-top: 25px;
 }
 
+.GreenFont{
+  color: #778566!important;
+}
+
 @media screen and (max-width: 450px) {
   h1{
     font-size: 30px;

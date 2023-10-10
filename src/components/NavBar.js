@@ -37,15 +37,11 @@ function NavBar() {
                     <Navbar.Brand className={styles.Logo}>Richard Morales</Navbar.Brand>
                     </NavLink>
                 <Navbar.Toggle onClick={()=> setExpanded(!expanded)} ref= {ref} aria-controls="navbarScroll"/>
-                <Navbar.Collapse id="navbarScroll">
+                <Navbar.Collapse>
                     <Nav className={
                             `me-auto my-2 my-lg-0 ${
                                 styles.Links
                             }`
-                        }
-
-                        style={
-                            {maxHeight: '100px'}
                         }
                         navbarScroll>
                         <NavLink exact="true" to="/richardmorales"

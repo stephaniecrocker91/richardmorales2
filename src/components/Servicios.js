@@ -96,7 +96,7 @@ function Servicios() {
                                     <div className={
                                         styles.BioText
                                     }>
-                                        <h4>{
+                                        <h4 className={app.GreenFont}>{
                                             servicio.title
                                         }</h4>
                                         <img src={
