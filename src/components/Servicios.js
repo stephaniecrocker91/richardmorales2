@@ -17,29 +17,34 @@ function Servicios() {
             title: "Tai Chi Chuan",
             image: taichichuan,
             info: <>
-                <p>El <em>taichí</em>, <em>tai chi</em> o <em>tai chi chuan</em> es un arte marcial que practican millones de personas en todo el mundo debido a los múltiples beneficios que ofrece, tanto a nivel corporal como mental, por la parte de meditación que incluye. Estos beneficios se hacen evidentes en poco tiempo, pues aunque se trata de un ejercicio que se realiza lentamente y de forma suave, con él se pueden trabajar todos los músculos del cuerpo, y además se tienen en cuenta otros factores como la fuerza, la flexibilidad y el equilibrio. De este modo, el taichí es efectivo en la mejora de la condición física, en el tratamiento de enfermedades circulatorias e incluso a la hora de retrasar el envejecimiento. La particularidad de esta disciplina consiste en combinar de forma armónica los tres fundamentos en los que se sustenta, y que son el movimiento corporal, la concentración mental y la realización de una respiración consciente.</p>
-                <p>La particularidad de esta disciplina consiste en combinar de forma armónica los tres fundamentos en los que se sustenta, y que son el movimiento corporal, la concentración mental y la realización de una respiración consciente.</p>
-            </>
+            <p>El Tai Chi Chuan es un arte marcial que practican millones de personas en todo el mundo debido a los múltiples beneficios que ofrece, tanto a nivel corporal, mental y emocional. Estos beneficios se hacen evidentes en poco tiempo, pues aunque se trata de un ejercicio que se realiza lentamente y de forma suave, con él se pueden trabajar todos los músculos del cuerpo, y además se tienen en cuenta otros factores como la fuerza, la flexibilidad y el equilibrio.</p>
+            <p>De este modo, el Tai Chi Chuan es efectivo en la mejora de la condición física, en el tratamiento de enfermedades circulatorias e incluso a la hora de retrasar el envejecimiento. La particularidad de esta disciplina consiste en combinar de forma armónica los tres fundamentos en los que se sustenta, y que son el movimiento corporal, la concentración mental y la realización de una respiración consciente.</p>
+            <p>Toda la teoría del Tai Chi Chuan está basada en fundamentos de la filosofía Taoísta, el Yin y Yang, opuestos complementarios y en la  alternancia de estás dos fuerzas.</p>
+        </>
         },
         {
             title: "Chi Kung",
             image: chikung,
             info: <>
-                <p>El <em>Chi Kung</em> o <em>Qi Gong</em> es una terapia medicinal de origen chino que pertenece al mismo grupo que otras terapias como el taichi o el reiki. Todas ellas proceden de la tradición oriental y sustentan sus principios en la importancia de canalizar de forma adecuada la energía vital (Qi) a través de los diferentes meridianos que recorren nuestro cuerpo.</p>
-                <p>Según dichos principios, el buen estado de la salud de cada uno dependerá de nuestra capacidad para conseguir el correcto equilibrio entre la mente y el cuerpo; y dicho bienestar se logra, principalmente, a través de la meditación y del control de la respiración.</p>
-            </>
+            <p>El Chi Kung, que se basa en una observación minuciosa de las leyes de la naturaleza, está relacionado con la filosofía taoísta y la concepción china del cuerpo humano.</p>
+            <p>Según estos principios filosóficos todos los fenómenos del universo se pueden clasificar según aspectos Yin y aspectos Yang. Son Yin (femenino, reposo, frío, interior,....); mientras que son Yang (masculino, movimiento, calor, exterior,…).</p>
+            <p>La MTC considera que en el cuerpo humano hay un sistema energético formado por una red de canales por los que fluye el Chi. La enfermedad es la manifestación de un estancamiento o interrupción de esta energía interna que no puede circular libremente por este circuito energético.</p>
+            <p>El objetivo del Chi Kung consiste en retornar al organismo el estado de equilibrio energético Yin-Yang que se ha perturbado, ya que el estado de salud se caracteriza por el equilibrio dinámico de estas dos fuerzas.</p>
+        </>
         },
         {
             title: "Yoga",
             image: yoga,
-            info: <p>El <em>yoga</em> es una antigua disciplina física, mental y espiritual que se originó en la India. Se centra en la armonía entre el cuerpo y la mente, y su objetivo es alcanzar un estado de equilibrio y bienestar integral. A través de la práctica de posturas físicas, técnicas de respiración y meditación, el yoga promueve la flexibilidad, la fuerza y la relajación, al tiempo que fomenta la paz interior y la conexión con uno mismo. Es una herramienta valiosa para aliviar el estrés, mejorar la salud y encontrar un sentido de serenidad en medio de las demandas de la vida moderna.</p>
+            info: <p>El yoga es una antigua disciplina física, mental y espiritual que se originó en la India. Se centra en la armonía entre el cuerpo, la mente y el espíritu. Su objetivo es alcanzar un estado de equilibrio y bienestar integral. A través de la práctica de posturas físicas, técnicas de respiración y meditación entre otras, el yoga promueve la flexibilidad, la fuerza y la relajación, al tiempo que fomenta la paz interior y la conexión con uno mismo y con el Todo. Es una herramienta valiosa para aliviar el estrés, mejorar la salud y encontrar un sentido de serenidad en medio de las demandas de la vida moderna.</p>
         },
         {
             title: "Meditación",
             image: meditacion,
-            info: <p>
-                La <em>meditación</em> es una práctica mental y espiritual que implica enfocar la atención de manera consciente en un objeto, pensamiento, o la propia respiración, con el propósito de calmar la mente, desarrollar la claridad mental y promover la relajación. Durante la meditación, se busca alcanzar un estado de tranquilidad interior, liberando la mente de distracciones y preocupaciones, lo que puede llevar a una mayor autoconciencia y una sensación de paz. A lo largo del tiempo, la meditación se ha utilizado en diversas tradiciones religiosas y culturas como una herramienta para reducir el estrés, mejorar la concentración y fomentar el bienestar emocional.
-                </p>
+            info: <>
+            <p>La meditación es una práctica mental y espiritual que implica enfocar la atención de manera consciente y para ello se basa en diferentes técnicas.</p>
+            <p>Se busca desarrollar la claridad mental y promover la relajación. Durante la meditación, se busca alcanzar un estado de tranquilidad interior, liberando la mente de distracciones y preocupaciones, lo que puede llevar a una mayor autoconciencia y una sensación de paz.</p>
+            <p>A lo largo del tiempo, la meditación se ha utilizado en diversas tradiciones religiosas y culturas como una herramienta para reducir el estrés, mejorar la concentración y fomentar el bienestar emocional.</p>
+            </>
 
         }, {
             title: "Medicina Tradicional China",
