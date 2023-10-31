@@ -1,8 +1,8 @@
 import Carousel from 'react-bootstrap/Carousel';
 import Hero from '../images/richard1.png';
 import Hero2 from '../images/richard2.png';
-import Hero2mobile from '../images/richard.png';
-import Heromobile from '../images/meditacion.png';
+import Hero2mobile from '../images/richard1mobile.png';
+import Heromobile from '../images/richard2mobile.png';
 import styles from '../styles/CarouselComponent.module.css';
 
 var heroData = [
