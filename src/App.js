@@ -8,6 +8,7 @@ import Blog from './components/Blog';
 import Footer from './components/Footer';
 import { Routes, Route } from 'react-router-dom';
 import Servicios from './components/Servicios';
+import CarouselComponent from './components/Home';
 
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
       <Routes>
         <Route exact="true" path="/" element= {
         <div>
-          <Landing />
+          <CarouselComponent />
         </div>   
       } />
         <Route exact="true" path="/servicios" element= {<Servicios />} />

@@ -1,0 +1,41 @@
+/* .HeroBlock container */
+.carouselContainer {
+    position: relative;
+  }
+  
+  /* .overlay styles */
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; /* Cover the entire container */
+    background: linear-gradient(to right, rgb(250, 250, 250) 50%, transparent 90%);
+  
+  }
+  
+  /* Mobile display */
+  .MobileDisplay {
+    display: none; /* Hide on desktop */
+  }
+  
+  /* Desktop display */
+  .DesktopDisplay {
+    display: block; /* Show on desktop */
+  }
+  
+  @media screen and (max-width: 980px) {
+    /* Mobile display */
+    .MobileDisplay {
+        display: block; /* Show on mobile */
+    }
+  
+    /* Desktop display */
+    .DesktopDisplay {
+        display: none; /* Hide on mobile */
+    }
+    .overlay {
+      background: linear-gradient(to right, transparent 0%, transparent 100%);
+  }
+  }
+  
