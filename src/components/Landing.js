@@ -1,7 +1,6 @@
 import {React} from 'react';
 import styles from '../styles/Landing.module.css'
 import image from '../images/starimage.png'
-import Button from 'react-bootstrap/Button';
 import { NavLink } from 'react-router-dom'
 import Video from './Video';
 
@@ -18,7 +17,7 @@ function Landing() {
                     <h1 className={styles.LandingSubtitle}>Anahata</h1>
                 </div>
                 <NavLink to="/richardmorales">
-                    <Button variant="dark" className={styles.Button}>Bienvenidos</Button>
+                    <button className={styles.Button}>Bienvenidos</button>
                 </NavLink>
         </>
     );

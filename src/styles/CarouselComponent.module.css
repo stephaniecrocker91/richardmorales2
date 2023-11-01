@@ -13,6 +13,50 @@
     background: linear-gradient(to right, rgb(250, 250, 250) 50%, transparent 90%);
   
   }
+
+  .home img{
+      width:75%!important;
+      margin: 0 auto;
+      height: auto!important;
+      border-radius: 10px;
+      }
+
+
+  .HomeMobileText{
+    margin-top: 90px!important;
+    color: #778566!important;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+  }
+  .HomeMobileText p {
+    letter-spacing:3px;
+
+  }
+
+  .HomeDescription{
+    margin-top:15px!important;
+    width: 70%;
+    margin: 0 auto;
+    color: #778566!important;
+    font-style: italic;
+  }
+  .HomeDescription p {
+    font-size: 12px!important;
+  }
+  
+  .Button {
+
+      padding: 10px 10px;
+      background-color: #788666;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color:white;
+      border-color: white;
+      border-radius: 10px;
+      font-size: 12px;
+      box-shadow:none;
+  }
+  
   
   /* Mobile display */
   .MobileDisplay {
