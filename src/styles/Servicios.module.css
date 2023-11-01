@@ -16,6 +16,7 @@
 .ServicioImage{
     width: 25vw;
     max-height: 50vh;
+    border-radius: 10px;
 }
 
 .Margin {

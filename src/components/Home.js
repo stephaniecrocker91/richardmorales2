@@ -3,6 +3,8 @@ import Hero from '../images/richard1.png';
 import Hero2 from '../images/richard2.png';
 import Hero2mobile from '../images/richard1mobile.png';
 import Heromobile from '../images/richardmobile.png';
+import logo from '../images/logo.png';
+
 import styles from '../styles/CarouselComponent.module.css';
 import app from '../App.module.css';
 import { NavLink } from 'react-router-dom'
@@ -92,6 +94,11 @@ function CarouselComponent() {
                             {/* Overlay on each item */}
                             <div className={styles.overlay}></div>
                             <img className="d-block w-100" src={Heromobile} alt="Second slide" loading="eager" />
+                        </Carousel.Item>
+                        <Carousel.Item interval={3000}>
+                            {/* Overlay on each item */}
+                            <div className={styles.overlay}></div>
+                            <img className="d-block w-100" src={logo} alt="Second slide" loading="eager" />
                         </Carousel.Item>
                     </Carousel> 
 
