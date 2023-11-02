@@ -3,12 +3,12 @@ import app from '../App.module.css';
 import styles from '../styles/Servicios.module.css';
 import {Container, Row, Col, Card} from 'react-bootstrap';
 import china from '../images/china.jpg';
-import meditacion from '../images/meditacion.png';
-import yoga from '../images/yoga.png';
+import meditacion from '../images/r4.jpg';
+import yoga from '../images/r3.jpg';
 import reiki from '../images/reiki.png';
 import terapiasflorales from '../images/terapias-florales.png';
-import taichichuan from '../images/taichichuan.png';
-import chikung from '../images/chikung.png';
+import taichichuan from '../images/r1.JPG';
+import chikung from '../images/r2.JPG';
 
 
 
