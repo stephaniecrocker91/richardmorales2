@@ -2,7 +2,7 @@ import {React} from 'react';
 import styles from '../styles/Bio.module.css'
 import app from '../App.module.css'
 import {Container, Row, Col} from 'react-bootstrap';
-import hero from '../images/richard.png'
+import hero from '../images/richard1mobile.png'
 import video from '../images/stars.mp4'
 import image from '../images/starimage.png'
 

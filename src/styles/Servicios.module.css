@@ -30,6 +30,20 @@
     cursor: pointer;
 }
 
+.Post{
+    border-radius: 2px;
+    margin-bottom: 16px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    background-color:#fafafa;
+    text-align: center;
+    margin: 2rem;
+    width: 30vw;
+}
+
+
+
 /* For larger screens (e.g., desktop) */
 .ReverseOrder {
     flex-direction: row-reverse;
