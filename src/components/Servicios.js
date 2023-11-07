@@ -2,7 +2,7 @@ import React from 'react';
 import app from '../App.module.css';
 import styles from '../styles/Servicios.module.css';
 import {Container, Row, Col, Card} from 'react-bootstrap';
-import china from '../images/china.jpg';
+import china from '../images/china.JPG';
 import meditacion from '../images/r4.jpg';
 import yoga from '../images/r3.jpg';
 import reiki from '../images/reiki.png';
